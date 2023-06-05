@@ -41,7 +41,7 @@ const Header: React.FC = () => {
       <div className="collapse navbar-collapse" id="navbarColor01">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-            <button
+            {/* <button
               type="button"
               className="btn btn-secondary"
               style={{ cursor: 'pointer' }}
@@ -53,7 +53,7 @@ const Header: React.FC = () => {
               }
             >
               About
-            </button>
+            </button> */}
           </li>
         </ul>
         <div className="my-2 app-actions">
