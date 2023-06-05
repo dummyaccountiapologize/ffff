@@ -1,0 +1,101 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex: 1;
+  height: 100%;
+}
+
+.mainContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.appConainer {
+  display: flex;
+  flex: 1;
+}
+
+.resizer {
+  width: 12px;
+  margin: 0 05px;
+  cursor: ew-resize;
+  background-color: #3a3f44;
+}
+
+.monaco-editor,
+.overflow-guard {
+  width: 100% !important;
+}
+
+.console {
+  word-wrap: break-word;
+  word-break: break-all;
+  padding: 20px;
+  font-size: large;
+  font-family: sans-serif;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.error {
+  color: #e54e4e;
+}
+
+.small-text {
+  font-size: 11px;
+}
+
+.app-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  position: fixed;
+  list-style: none;
+  user-select: none;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  padding: 6px 10px;
+  min-width: 200px;
+  z-index: 100;
+}
+
+.menu li {
+  cursor: pointer;
+  padding: 0px 5px;
+}
+
+.menu li:hover {
+  background-color: #3a3f44;
+}
+
+.clickable {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 5px;
+  font: inherit;
+  outline: 0;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+}
+
+
+.text-sm {
+  color: #aaa;
+  font-size: 0.7rem;
+}
